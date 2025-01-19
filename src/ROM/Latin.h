@@ -21,7 +21,7 @@
 #include "../base/LCDI2C_Types.h"
 
 // List of Latin-1 letters and some symbols built in the ROM
-const uint8_t LatinROMLetterNum = 54;
+const uint8_t LatinROMLetterNum = 61;
 ROMCharacterType LatinROMLetters [LatinROMLetterNum] = {
   {0x00B1, 0x10},   // ± Plus-Minus
   {0x2248, 0x1D},   // ≈ almost equal
