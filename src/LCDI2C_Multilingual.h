@@ -31,5 +31,6 @@
 #include "LCDI2C_RussianLatin_Vietnamese.h"
 #include "LCDI2C_Katakana_Symbols.h"
 #include "LCDI2C_Katakana_Vietnamese.h"
+#include "LCDI2C_Azerbaijani_Latin.h"
 
 #endif // LCDI2C_Multilingual_h

@@ -21,7 +21,7 @@
 #include "../base/LCDI2C_Types.h"
 
 // List of Latin-1 letters and some symbols built in the ROM
-const uint8_t LatinROMLetterNum = 61;
+const uint8_t LatinROMLetterNum = 54;
 ROMCharacterType LatinROMLetters [LatinROMLetterNum] = {
   {0x00B1, 0x10},   // ± Plus-Minus
   {0x2248, 0x1D},   // ≈ almost equal
@@ -77,14 +77,7 @@ ROMCharacterType LatinROMLetters [LatinROMLetterNum] = {
   {0x00A8, 0xB1},	// ¨ diaeresis
   {0x00B0, 0xB2},	// ° degree sign
   //{0x0060, 0xB3},	// ` grave accent (use ASCII grave instead)
-  {0x00B4, 0xB4},	// ´ acute accent
-  {0x018F, 0xB5}, // Ə 
-  {0x0259, 0xB6}, // ə
-  {0x01E6, 0xB7}, // Ğ
-  {0x01E7, 0xB8}, // ğ
-  {0x015E, 0xB9}, // Ş
-  {0x015F, 0xBA}, // ş
-  {0x0131, 0xBB} // ı
+  {0x00B4, 0xB4}	// ´ acute accent
   /*{0x00D7, 0xB7},   // × Multiplication	//// Removed for saving Arduino RAM
   {0x00F7, 0xB8},   // ÷ Division
   {0x2264, 0xB9},   // ≤ LTE
