@@ -46,6 +46,6 @@ class CustomizedAzerbaijani : public CustomizedLanguage {
       CustomLetters = AzerbaijaniCustomLetters;
     }
 // alternativləri bura yazmaq lazımdır
-}
+};
 
 #endif
